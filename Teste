@@ -1,0 +1,33 @@
+Isso é um teste para lembrar como fazer
+
+Entrar no github com o email e senha
+entrar no VSCode
+fechar pasta(se estiver aberta) file Close Folder
+ir no botão source control
+botão clone repository
+copiar url do repositorio no github e color no VScode e teclar enter
+clonar o diretorio em c:/xampp/htdocs e clicar em open
+tela azul se confia no author clicar em sim ou yes
+-----------------------fim-------------------- clonagem do repossitorio do github
+-----------configurar terminal--------------
+
+ir no menu terminal---- new terminal-----
+digitar os comandos:
+git config --global user.email "00001114281074sp@al.educacao.sp.gov.br"
+git config --global user.name "BrunoHen2"
+fechar terminal
+-----------------------------------------------
+
+--------enviando mudanças para github------------
+salvar com Crt+S
+ir no source control "o negócio embaixo da lupa"
+em changes clicar em +
+colocar a mensagem no commit 
+clicar na setinha azul do commit
+clicar em commit push
+na primeira vez ele vai pedir autorizações vc aceita. Já na segunda ele não vai pedir mais
+ver no github se foi atualizado 
+----------------------ACABO------------
+
+
+
