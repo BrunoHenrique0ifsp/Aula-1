@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+<body>
+    <h3>Formulário</h3>
+    <br>
+    <form action=""> 
+        <fieldset>
+                <legend>Dados pessoais</legend>
+            <div>
+                    <label for="nome"><strong>Nome: </strong> </label>
+                    <input type="text" name="unome_usuario" id="nome" size="30" maxlength="1000"  required><br>
+                    <label for="en"><strong>Endereço: </strong> </label>
+                    <input type="text" name="unome_usuario" id="en" size="30" maxlength="1000" required><br>
+                    <label for="nome"><strong>Cidade: </strong> </label>
+                    <input type="text" name="unome_usuario" id="ci" size="30" maxlength="1000"  required><br>
+            </div>
+
+            <div>
+                <label for="estados"><strong> Estados: </strong></label>
+                <select name="opc" id="opc">
+                <option value="sp">SP</option>
+                <option value="BA">BA</option>
+                <option value="ES">ES</option>
+                </select>
+            <br>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <div>
+                <label for="">Natureza do Cargo</label><br>
+                <label for="">Gerência</label>
+                    <input type="radio" name="check" id="check" required><br>
+                <label for="esporte">Financeiro</label>
+                    <input type="radio" name="check" id="esporte" required><br>
+                <label for="legal">Recepção</label>
+                    <input type="radio" name="check" id="Aula" required><br>
+            </div>
+            <div><br>
+                <label for="">Área de interesse</label><br>
+                <label for="check">computação</label>
+                <input type="checkbox" name="check" id="check" required><br>
+            <label for="esporte">Biologia</label>
+                <input type="checkbox" name="esporte" id="esporte" required><br>
+            <label for="legal">Meio Ambiente</label>
+                <input type="checkbox" name="legal" id="Aula" required>
+            </div>
+            <div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Deixe seu recado"
+                ></textarea>
+                <label for="">Miri-currículo</label>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Apagar</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

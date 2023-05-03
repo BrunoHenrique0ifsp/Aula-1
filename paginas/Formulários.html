@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+
+<p>
+    Quandos queremos usar um formulário usamos o comando "form" e com ele temos outros tipos de form
+</p>
+    <form action=""> 
+        <div> <fieldset>
+                <label for="nome"><strong>Nome: </strong> </label>
+                <input type="text" name="unome_usuario" id="nome" size="30" maxlength="1000" placeholder="Digite o seu nome" required>
+        </div></fieldset>
+        <div>
+                <label for="senha"><strong>Senha: </strong> </label>
+                <input type="password" name="senha" id="senha"  placeholder="Digite sua senha" required>
+        </div>
+        <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Apagar</button>
+        </div>
+        <div>
+                <label for="check">Confirme</label>
+                    <input type="checkbox" name="check" id="check" required><br>
+                <label for="esporte">esporte</label>
+                    <input type="checkbox" name="esporte" id="esporte" required><br>
+                <label for="legal">Aula</label>
+                    <input type="checkbox" name="legal" id="Aula" required>
+
+        </div>
+        <div>
+                <label for="check">Confirme</label>
+                    <input type="radio" name="check" id="check" required><br>
+                <label for="esporte">esporte</label>
+                    <input type="radio" name="check" id="esporte" required><br>
+                <label for="legal">Aula</label>
+                    <input type="radio" name="check" id="Aula" required>
+        </div>
+        <div>
+            <select name="opc" id="opc">
+            <option value="aluno">aluno</option>
+            <option value="professor">professor</option>
+            <option value="cordenação">ordenação</option>
+            </select>
+        </div><br>
+        <div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Deixe seu recado"
+            ></textarea>
+        </div>
+    </form>
+        <p>
+            é usado o label para dar um nome ao input. <br>
+            o div "pula uma linha"
+        </p>
+
+</body>
+</html>
