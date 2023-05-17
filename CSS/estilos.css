@@ -1,0 +1,22 @@
+/*modelo de aplicação
+selector { propriedade: valor 
+}
+*/                              
+
+div {
+    background-color: PowderBlue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    font-size: 20px;
+}
+body {
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+h1, h2 {
+    /*aplicando a rega CSS para mais de um selector*/
+    font-size: 50px;
+}
+div p strong a {
+    background-color: aquamarine;
+}
